@@ -38,13 +38,7 @@ const App = () => {
   
 
   return (
-    <div className="container">
-      <div className="row">
-      <div className="col-md-8"></div>
-      <div className="col-md-4 date">{Date()}</div>
-      </div>
-      
-      <div>
+      <div class="bg bg-secondary container contenue">
       <div>
   {editing ? (
     <div>
@@ -67,7 +61,6 @@ const App = () => {
       <UserTable users={users} updateUser={updateUser} />
         </div>
       </div>
-    </div>
   )
 }
 

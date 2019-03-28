@@ -12,7 +12,7 @@ const AddText = props => {
 	}
 
 	return (
-    <div className="container si">
+    <div className="container-fluid si" id="formulaire">
 		<div className="row">
 		<div class="col-md-5">
 			<label class="s">N° Matricule</label>
