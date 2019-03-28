@@ -5,15 +5,15 @@ margin-left: 200px;
 border-collapse: collapse;
 margin-top:30px;
 }
-td, th ,tr
+td
 {
-border: 1px solid rgb(18, 117, 56);
-width: 50px; 
-text-align: center;
+    background-color: white;
+    text-align: center;
+    border: solid 1px black;
 }
 
 .test{
-    text-align: center !important;
+    text-align: right !important;
 }
 
 th{
@@ -24,7 +24,7 @@ th{
     background-color: rgb(18, 117, 56);
 }
 .container{
-    width: 850px;
+    width: 90%;
 }
 .sa{
     margin-left: 800px;
@@ -32,10 +32,10 @@ th{
 .ss{
     border: 1px solid black;
     width: 90%;
-    height: 40px;
+    height: auto;
     margin-top:70px;
     margin-left: 5%;
-    text-align: center;
+    text-align: center !important;
 }
 .pas{
     width: 100%;
@@ -46,10 +46,11 @@ th{
     padding-left: 10px;
 }
 
-.bout{
+.bout, .bout1{
     text-align: center;
     margin-bottom: 5px !important;
 }
+
 
 .cherche{
     margin-right: 10px;
@@ -68,3 +69,22 @@ th{
     margin-bottom: 0%;
 
 }
+
+#total{
+    text-align: center !important;
+}
+
+@media screen and (max-width: 640px) {
+    table,
+    tbody,
+    tr,
+    td {
+      display: block;
+      width: auto!important;
+    }
+
+    #entet{display: none;}
+  }
+  .center{
+      text-align:center;
+  }
