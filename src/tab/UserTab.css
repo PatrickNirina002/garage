@@ -1,0 +1,70 @@
+table
+{
+width: 100%;
+margin-left: 200px;
+border-collapse: collapse;
+margin-top:30px;
+}
+td, th ,tr
+{
+border: 1px solid rgb(18, 117, 56);
+width: 50px; 
+text-align: center;
+}
+
+.test{
+    text-align: center !important;
+}
+
+th{
+    background-color: rgb(18, 117, 56);
+}
+.pa
+{
+    background-color: rgb(18, 117, 56);
+}
+.container{
+    width: 850px;
+}
+.sa{
+    margin-left: 800px;
+}
+.ss{
+    border: 1px solid black;
+    width: 90%;
+    height: 40px;
+    margin-top:70px;
+    margin-left: 5%;
+    text-align: center;
+}
+.pas{
+    width: 100%;
+}
+.navig{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.bout{
+    text-align: center;
+    margin-bottom: 5px !important;
+}
+
+.cherche{
+    margin-right: 10px;
+}
+
+.r{
+    color:red;
+    text-align: center;
+}
+.d{
+    margin-left:20px;
+}
+
+.fid{
+    width: 50px !important;
+    margin-bottom: 0%;
+
+}
